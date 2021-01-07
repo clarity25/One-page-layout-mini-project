@@ -1,0 +1,73 @@
+html{
+    font-size: 16px;
+}
+
+@font-face {
+    src: url(/assets/fonts/AGENCYR.ttf);
+    font-family: agency fb;
+  }
+
+*{
+    font-family: agency fb;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#app{
+    position: relative;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y:repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: darkslategray;
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+}
+
+li{
+
+}
+
+a{
+    width: 4.2rem;
+    padding: 0.6rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: floralwhite;
+    text-decoration: none;
+    display: block;
+    
+}
+a:hover{
+    background-color: grey;
+}
+
+
+
+section{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    
+}
+
+
