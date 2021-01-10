@@ -19,7 +19,6 @@ header{
     display: flex;
     justify-content: center;
     position: fixed;
-    background-color: darkslategray;
     width: 100%;
 
 }
@@ -35,17 +34,21 @@ li{
 }
 
 a{
-    width: 4.2rem;
+    width: 7rem;
     padding: 0.6rem 0;
     text-align: center;
     font-size: 1.3rem;
-    color: floralwhite;
+    color: rgb(231, 230, 230);
+    text-shadow: 1.5px 1.5px rgb(39, 39, 39);
     text-decoration: none;
     display: block;
     
 }
 a:hover{
-    background-color: grey;
+    background-color: aquamarine;
+    transition: .8s;
+    color: rgb(38, 56, 56);
+    text-shadow: none;
 }
 
 
@@ -57,13 +60,34 @@ section{
     display: flex;
     align-items: center; 
     justify-content: center;
-    scroll-snap-align: center;
-    
+    flex-direction: column;
 }
 
 #home{
     background-image: url("../assets/bg/bg13.jpg");
 
 }
+#homeDiv{
+    width: 35rem;
+    margin: 0 0 0 -42rem;
+}
+
+#home h1 {    
+    font-size: 2.5rem;
+    color: rgb(255, 243, 221);
+    text-shadow: 2px 2px black;
+}
+#home h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: rgb(255, 243, 221);
+    text-shadow: slategrey 1px 1px;
+}
+
+#homep{
+    color: rgb(255, 243, 221);
+    text-shadow: slategrey 1px 1px;
+}
+
 
 
