@@ -1,6 +1,8 @@
 html{
     font-size: 16px;
     scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
 }
 
 @font-face {
@@ -61,15 +63,16 @@ section{
     align-items: center; 
     justify-content: center;
     flex-direction: column;
+    scroll-snap-align: center;
 }
 
 #home{
-    background-image: url("../assets/bg/bg13.jpg");
+    background-image: url("../assets/imgs/bg/bg13.jpg");
 
 }
 #homeDiv{
     width: 35rem;
-    margin: 0 0 0 -42rem;
+    margin: 3rem 0 0 -42rem;
 }
 
 #home h1 {    
@@ -85,6 +88,7 @@ section{
 }
 
 #homep{
+    font-size: 1.2rem;
     color: rgb(255, 243, 221);
     text-shadow: slategrey 1px 1px;
 }
