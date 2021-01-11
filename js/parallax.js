@@ -13,6 +13,14 @@ window.addEventListener('scroll', function(){
         home.style.backgroundColor = 'aquamarine';
 
 const navbarScrollEffect = (offset) =>{
+
+    // let li = document.querySelector('li');
+
+    // if(offset > 400 && offset < 1000){
+    //     li[1].style.backgroundColor = 'red';
+    // }
+
+
     if(offset < 100){
         var home = document.querySelector('.li:nth-Child(1)');
         var dogo = document.querySelector('.li:nth-Child(2)');
