@@ -70,26 +70,32 @@ section{
 
 }
 #homeDiv{
-    width: 35rem;
-    margin: 3rem 0 0 -42rem;
+    width: 20rem;
+    margin: 2rem 0 0 -57rem;
 }
-
-#home h1 {    
-    font-size: 2.5rem;
+#home #homeDiv h1 {    
+    font-size: 4rem;
     color:#ffff;
     text-shadow: 2px 2px black;
 }
-#home h2 {
-    font-size: 1.5rem;
-    margin: 2rem 0;
+
+#home #text{
+    width: 35rem;
+    margin: -24rem -40rem 0 0;
+}
+
+
+#home #text h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
     color:#ffff;
-    text-shadow: rgb(45, 54, 63) 1px 1px;
+    text-shadow: rgb(25, 29, 32) 1px 1px;
 }
 
 #homep{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color:#ffff;
-    text-shadow: rgb(45, 54, 63) 1px 1px;
+    text-shadow: rgb(25, 29, 32) 1px 1px;
 }
 
 
