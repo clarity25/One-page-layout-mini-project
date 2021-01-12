@@ -22,6 +22,7 @@ header{
     justify-content: center;
     position: fixed;
     width: 100%;
+    transition: .8s;
 
 }
 
@@ -31,16 +32,12 @@ ul{
     flex-direction: row;    
 }
 
-li{
-
-}
-
 a{
     width: 7rem;
     padding: 0.6rem 0;
     text-align: center;
     font-size: 1.3rem;
-    color: rgb(231, 230, 230);
+    color:#ffff;
     text-shadow: 1.5px 1.5px rgb(39, 39, 39);
     text-decoration: none;
     display: block;
@@ -56,7 +53,7 @@ a:hover{
 
 
 section{
-    background-color: aquamarine;
+    background-color: #ffff;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -68,6 +65,8 @@ section{
 
 #home{
     background-image: url("../assets/imgs/bg/bg13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #homeDiv{
@@ -77,20 +76,20 @@ section{
 
 #home h1 {    
     font-size: 2.5rem;
-    color: rgb(255, 243, 221);
+    color:#ffff;
     text-shadow: 2px 2px black;
 }
 #home h2 {
     font-size: 1.5rem;
     margin: 2rem 0;
-    color: rgb(255, 243, 221);
-    text-shadow: slategrey 1px 1px;
+    color:#ffff;
+    text-shadow: rgb(45, 54, 63) 1px 1px;
 }
 
 #homep{
     font-size: 1.2rem;
-    color: rgb(255, 243, 221);
-    text-shadow: slategrey 1px 1px;
+    color:#ffff;
+    text-shadow: rgb(45, 54, 63) 1px 1px;
 }
 
 
