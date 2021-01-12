@@ -50,7 +50,10 @@ a:hover{
     text-shadow: none;
 }
 
-
+/* #showNavbar{
+    background-image: linear-gradient(to top right, #2E2C51, #A48779);
+    transition: .8s;
+} */
 
 section{
     background-color: #ffff;
