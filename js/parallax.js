@@ -55,7 +55,7 @@ const navbarScrollEffect = (offset) =>{
         minobu.style.backgroundColor = navBarScrollBackgrounColor;
         shimonada.style.backgroundColor = 'transparent';
         yakushima.style.backgroundColor = 'transparent';
-    }else if(offset > 2150 && offset < 2840){
+    }else if(offset > 2300 && offset < 2840){
         var minobu = document.querySelector('.li:nth-Child(4)');
         var yakushima = document.querySelector('.li:nth-Child(5)');
         var ikebukuro = document.querySelector('.li:nth-Child(6)');
